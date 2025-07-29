@@ -18,4 +18,8 @@ elif(emrank<100000):
     print("alloed in scert")
 else:
     print("not allowed")
+
+
+
+
     
