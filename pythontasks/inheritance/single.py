@@ -26,11 +26,11 @@ obj1=Child()
 obj1.Cmethod()
 
 #3
-class User:
+class Users:
     def __init__(self,name,email):
         self.name=name
         self.email=email
-class Student(User):
+class Student(Users):
     def __init__(self, name, email,enrollcourse):
         super().__init__(name, email)
         self.enrollcourse=enrollcourse
