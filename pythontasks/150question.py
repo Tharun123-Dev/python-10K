@@ -813,21 +813,21 @@
 # print(sml)
 
 #65 find the second and third largest number
-# list=[23,43,56,76,34]
-# lar=sec=thid=list[2]
-# for i in list:
-#     if i >lar:
-#         thid=sec
-#         sec=lar
-#         lar=i
-#     elif i>sec and i!=lar :
-#       thid=sec
-#       sec=i
-#     elif i>thid and i!=sec and i!=lar:
-#        thid=i
+list=[23,43,56,76,34]
+lar=sec=thid=list[2]
+for i in list:
+    if i >lar:
+        thid=sec
+        sec=lar
+        lar=i
+    elif i>sec and i!=lar :
+      thid=sec
+      sec=i
+    elif i>thid and i!=sec and i!=lar:
+       thid=i
          
-# print(thid)
-
+print(thid)
+print(sec)
 
 # list = [23, 43, 56, 76, 34,44]
 # lar = sec = thid = list[0]
@@ -857,6 +857,16 @@
 #     elif secsm<i and secsm!=sm:
 #         secsm=i
 # print(secsm)
+list=[27,22,454,66,44,77,12]
+sm=secl=list[3]
+for i in list:
+    if i>sm:
+        secl=sm
+        sm=i
+    elif secl>i and secl!=sm:
+        secl=i
+print(secl)
+
 
 # #67 reverse an list
 # list=[1,2,3,4,5]
@@ -1036,13 +1046,13 @@
 
 # #80 given two dictionaries, merge them into one. 
 # #if key exists  in both sum their values
-# dict1={"namee":2,"age":3,"group":4}
-# dict2={"name":5 ,"course":6,"rank":2}
-# d={}
-# for i in dict1:
-#     d[i]=dict1[i]
-# for j in dict2:
-#     d[j]=dict2[j]
+dict1={"namee":2,"age":3,"group":4}
+dict2={"name":5 ,"course":6,"rank":2}
+d={}
+for i in dict1:
+    d[i]=dict1[i]
+for j in dict2:
+    d[j]=dict2[j]
 
 # print(d)
 
