@@ -76,4 +76,3 @@ class cycle(car):
 car=car()
 cycle=cycle()
 car.speed()
-cycle.speed()
