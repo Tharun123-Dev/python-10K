@@ -117,4 +117,20 @@
 # for j in range (2,row):
 #     print(" "*(row-j)+"* "*j)
 
-#14
+# #10
+# num=5
+# for i in range(1,num+1):
+#     print(" " *(num-i),end=" ")
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+       
+#     print()
+# for i in range(num+1,1,-1):
+#     print(" " *(num-i),end=" ")
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+       
+#     print()
+
+#11
+for i in range ()

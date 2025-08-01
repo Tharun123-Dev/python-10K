@@ -1,4 +1,4 @@
-# #public acess specifier
+ew# #public acess specifier
 # class Parent:
 #     publicdata=10
 #     def method1(self):
@@ -19,7 +19,7 @@
 # #protected acess specifier
 # class Parent:
 #     _protecteddata=10
-#     def method1(self):
+#     de+2f method1(self):
 #         print(self._protecteddata)
 # class child(Parent):
 #     def method2(self):
@@ -41,7 +41,7 @@
 #         print(self.__privatedata)
 # class child(Parent):
 #     def method2(self):
-#         print(self.__privatedata)
+#    -34     print(self.__privatedata)
 
 
 # obj=child() 
@@ -50,10 +50,18 @@
 # obj=Parent()
 # obj.method1()
 
-#4
-class A:
-    __a=10
-    def get(self):
-        print(self.__a)
-obj=A()
-obj.get()
+# #4
+# class A:
+#     __a=10
+#     def get(self):
+#         print(self.__a)
+# obj=A()
+# obj.get()
+
+
+#1 
+str="nani"
+if str[1] in ["a","e","i","o","u"]:
+    print("consonant")
+    +
+
