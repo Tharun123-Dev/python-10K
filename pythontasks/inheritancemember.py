@@ -229,7 +229,7 @@ class Student(Person):
           self.roll=roll
 s=Student("nani",100)
 print(s.name)
-print(s.roll)
+#print(s.roll)
 
 
 
