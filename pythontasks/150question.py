@@ -7,7 +7,7 @@
 # #2 same but printed in list
 # list=[]
 # for i in range(1,101):
-#  list.append(i)
+#   list.append(i)
 # print(list)
 
 # #3 write a program to print first n natural numbers and sum

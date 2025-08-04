@@ -132,3 +132,15 @@
        
 #     print()
 
+#11
+list=[2,33,55,3,45,5,3,3,4,4,2,3,3,4,4]
+list1=[]
+while list:
+    sort=list[0]
+    for i in list:
+      if i>sort:
+         sort=i
+    list1.append(sort)
+    list.remove(sort)
+
+print(list1)
