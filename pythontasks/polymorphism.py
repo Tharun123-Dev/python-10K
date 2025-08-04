@@ -62,7 +62,7 @@ class SendEmail:
 class Notifier:
     def send(self,msg):
         print(f"notifier sent : {msg}")
-def sending(sender,msg):
+def sending(sender,msg): #polymorphic function
     sender.send(msg)
 
 sending(SendMsg(),"hi your otp is 2343")

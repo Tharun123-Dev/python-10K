@@ -52,37 +52,84 @@
 # obj1.method3()
 # obj1.method4()
 
-#abstract
-from abc import ABC, abstractmethod
-class Polygon(ABC):
-    @abstractmethod
-    def sides(self):
-        pass
-    @abstractmethod
-    def area(self):
-        pass
-    @abstractmethod
-    def perimeter(self):
-        pass
-    def figure(self):
-        return "it is a 2_dimensional figure"
-class Rectangle(Polygon):
-    def sides(self,length,breadth):
-        self.length=length
-        self.breadth=breadth
-    def area(self):
-        return self.length*self.breadth
-    def perimeter(self):
-        return 2*(self.length+self.breadth)
-    def extramethod(self):
-        return "rectangle has 4 sides"
-#class use traingle
-#class use square 
-#etc etc
-rect=Rectangle()
-rect.sides(10,20)
-print(rect.area())
-print(rect.perimeter())
-print(rect.extramethod())
+# #abstract
+# from abc import ABC, abstractmethod
+# class Polygon(ABC):
+#     @abstractmethod
+#     def sides(self):
+#         pass
+#     @abstractmethod
+#     def area(self):
+#         pass
+#     @abstractmethod
+#     def perimeter(self):
+#         pass
+#     def figure(self):
+#         return "it is a 2_dimensional figure"
+# class Rectangle(Polygon):
+#     def sides(self,length,breadth):
+#         self.length=length
+#         self.breadth=breadth
+#     def area(self):
+#         return self.length*self.breadth
+#     def perimeter(self):
+#         return 2*(self.length+self.breadth)
+#     def extramethod(self):
+#         return "rectangle has 4 sides"
+# #class use traingle
+# #class use square 
+# #etc etc
+# rect=Rectangle()
+# rect.sides(10,20)
+# print(rect.area())
+# print(rect.perimeter())
+# print(rect.extramethod())
 
+
+#2
+from abc import ABC, abstractmethod
+class Vehicle(ABC):
+    @abstractmethod
+    def diffveh(self):
+        pass
+class Bike(Vehicle):
+    def diffveh(self):
+        print("it is bike")
+class Truck(Vehicle):
+    def diffveh(self):
+        print("it is Truck")
+class Car(Vehicle):
+    def diffveh(self):
+        print("it is Cat")
  
+obj=Bike()
+obj.diffveh()
+obj1=Truck()
+obj1.diffveh()
+obj2=Car()
+obj2.diffveh()
+
+
+
+# #3
+# from abc import ABC, abstractmethod
+# class Vehicle(ABC):
+#     @abstractmethod
+#     def diffveh(self,diff):
+#         self.diff=diff
+# class Bike(Vehicle):
+#     def diffveh(self):
+#         print("it is bike")
+# class Truck(Vehicle):
+#     def diffveh(self):
+#         print("it is Truck")
+# class Car(Vehicle):
+#     def diffveh(self):
+#         print("it is Cat")
+ 
+# obj=Bike()
+# obj.diffveh()
+# obj=Truck()
+# obj.diffveh()
+# obj=Car()
+# obj.diffveh()
