@@ -542,7 +542,7 @@
 # if operator=="+":
 #     print("sum is",a+b)
 # elif operator=="-":
-#     print*("substraction",a-b)
+#     print("substraction",a-b)
 # elif operator=="*":
 #     print("multiplication",a*b)
 # elif operator=="/":
