@@ -199,6 +199,9 @@ for i in list:
     if i==str(i):
      print(i,"it is a string")
 
+
+#
+
 #process2
 string=[]
 for item in list:
