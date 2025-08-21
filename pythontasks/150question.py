@@ -75,7 +75,19 @@
 #      break
 # else:
 #   print(num,"it is a not prime")
-     
+#
+
+##without 1 also not prime
+# for i in range (1,100):
+#  if  i==1:
+#     print(i,"notprime") 
+#  else: 
+#   for x in range (2,i):
+#       if i%x==0:
+#         print(i,"nit prime")
+#         break
+#   else:
+#     print( i,"prime")
 # #9.print the 10 terms of the fabonoicci series
 # n=int(input("enter a number:"))
 # a=0
