@@ -752,22 +752,22 @@
 # # an list are decresing order and return  an list of an true otherwise false
 # #decresing order true
 
-# input=[579,111,200,652]
-# result=[]
-# for i in input:
-#     temp=i
-#     is_decreasing=True
-#     prev_digit=10
-#     while temp>0:
-#         current_digit= temp%10
-#         temp=temp//10
+input=[579,111,200,652]
+result=[]
+for i in input:
+    temp=i
+    is_decreasing=True
+    prev_digit=10
+    while temp>0:
+        current_digit= temp%10
+        temp=temp//10
 
-#         if current_digit>=prev_digit:
-#          is_decreasing=False
-#          break
-#         prev_digit=current_digit
-#     result.append(is_decreasing)
-# print(result)
+        if current_digit>=prev_digit:
+         is_decreasing=False
+         break
+        prev_digit=current_digit
+    result.append(is_decreasing)
+print(result)
 
 #62 concate all duplicate numbers in list
 # list=[23,33,200,652]
@@ -1066,7 +1066,7 @@ for i in dict1:
 for j in dict2:
     d[j]=dict2[j]
 
-# print(d)
+print(d)
 
 # #81 given two dictionaries, merge them into one. 
 # #if key exists  in both sum their values
