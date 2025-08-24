@@ -752,22 +752,22 @@
 # # an list are decresing order and return  an list of an true otherwise false
 # #decresing order true
 
-input=[579,111,200,652]
-result=[]
-for i in input:
-    temp=i
-    is_decreasing=True
-    prev_digit=10
-    while temp>0:
-        current_digit= temp%10
-        temp=temp//10
+# input=[579,111,200,652]
+# result=[]
+# for i in input:
+#     temp=i
+#     is_decreasing=True
+#     prev_digit=10
+#     while temp>0:
+#         current_digit= temp%10
+#         temp=temp//10
 
-        if current_digit>=prev_digit:
-         is_decreasing=False
-         break
-        prev_digit=current_digit
-    result.append(is_decreasing)
-print(result)
+#         if current_digit>=prev_digit:
+#          is_decreasing=False
+#          break
+#         prev_digit=current_digit
+#     result.append(is_decreasing)
+# print(result)
 
 #62 concate all duplicate numbers in list
 # list=[23,33,200,652]
@@ -824,22 +824,22 @@ print(result)
 # print(lrg)
 # print(sml)
 
-#65 find the second and third largest number
-list=[23,43,56,76,34]
-lar=sec=thid=list[2]
-for i in list:
-    if i >lar:
-        thid=sec
-        sec=lar
-        lar=i
-    elif i>sec and i!=lar :
-      thid=sec
-      sec=i
-    elif i>thid and i!=sec and i!=lar:
-       thid=i
+# #65 find the second and third largest number
+# list=[23,43,56,76,34]
+# lar=sec=thid=list[2]
+# for i in list:
+#     if i >lar:
+#         thid=sec
+#         sec=lar
+#         lar=i
+#     elif i>sec and i!=lar :
+#       thid=sec
+#       sec=i
+#     elif i>thid and i!=sec and i!=lar:
+#        thid=i
          
-print(thid)
-print(sec)
+# print(thid)
+# print(sec)
 
 # list = [23, 43, 56, 76, 34,44]
 # lar = sec = thid = list[0]
@@ -869,15 +869,15 @@ print(sec)
 #     elif secsm<i and secsm!=sm:
 #         secsm=i
 # print(secsm)
-list=[27,22,454,66,44,77,12]
-sm=secl=list[3]
-for i in list:
-    if i>sm:
-        secl=sm
-        sm=i
-    elif secl>i and secl!=sm:
-        secl=i
-print(secl)
+# list=[27,22,454,66,44,77,12]
+# sm=secl=list[3]
+# for i in list:
+#     if i>sm:
+#         secl=sm
+#         sm=i
+#     elif secl>i and secl!=sm:
+#         secl=i
+# print(secl)
 
 
 # #67 reverse an list
@@ -1057,16 +1057,16 @@ print(secl)
 # print(s)
 
 # #80 given two dictionaries, merge them into one. 
-# #if key exists  in both sum their values
-dict1={"namee":2,"age":3,"group":4}
-dict2={"name":5 ,"course":6,"rank":2}
-d={}
-for i in dict1:
-    d[i]=dict1[i]
-for j in dict2:
-    d[j]=dict2[j]
+# # #if key exists  in both sum their values
+# dict1={"namee":2,"age":3,"group":4}
+# dict2={"name":5 ,"course":6,"rank":2}
+# d={}
+# for i in dict1:
+#     d[i]=dict1[i]
+# for j in dict2:
+#     d[j]=dict2[j]
 
-print(d)
+# print(d)
 
 # #81 given two dictionaries, merge them into one. 
 # #if key exists  in both sum their values
@@ -1298,6 +1298,63 @@ print(d)
 # s="python"
 # for i in range (0,len(s),2):
 #     print(s[i]+s[-(i+1)])
+
+
+# s= "123er78"
+# d=[]
+# for ch in s:
+#     if :
+#       d.append(int(ch))
+#       print(ch)
+
+
+# #95
+# input= "programming"
+# m={}
+# mn=0 
+# for i in input :
+#     if i  not in m:
+#         m[i]=1
+#     else:
+       
+#        m[i]+=1
+          
+
+# for i, l in m.items():
+#     print(i,l)
+
+#96
+
+# a=2
+# b=4
+# for i in range(max(a,b),((a*b)+1)):
+#     if i%a==0 and i%b==0:
+#      print(i)
+#      break
+
+#we can use math functions like
+# import math
+# print(math.lcm(2,4,6)) 
+# print(math.gcd(12,18))
+# a=40
+# b=60
+# c=80
+# for i in range(max(a,b,c),(a*b*c)+1):
+#     if i%a==0 and i%b==0 and i%c==0:
+#       print(i)
+#       break
+
+      
+
+#gcd 
+
+for i in range (max(a,b,c),0,-1):
+    if a%i==0 and b%i==0 and c%i==0:
+        print(i)
+        break
+    
+    
+    
 
 
 
