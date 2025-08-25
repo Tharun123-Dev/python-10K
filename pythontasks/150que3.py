@@ -59,6 +59,16 @@
 # sett={23,34,21,67,76,89,86,76,90}
 # print(sett)
 
+#5
+# for i in range (ord("a"),ord("z")+1):
+    # print(chr(i))
+
+#6
+for i in range(65,91):
+    print(chr(i))
+
+for i in range (97,123):
+    print(chr(i))
 
 
 
